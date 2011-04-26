@@ -6,20 +6,22 @@ To use this addin, stored procedures/functions should be saved in a file with th
 Usage
 -----
 Suppose you have the files procA.sql and procB.sql
-procA.sql
 
-`<code>`
-CREATE PROCEDURE procA 
+procA.sql:
+
+```
+CREATE PROCEDURE procA
 AS
 EXEC procB
-`<code>`
-procB.sql
+```
 
-`<code>`
+procB.sql:
+
+```
 CREATE PROCEDURE procB
 AS
 PRINT 'something'
-`<code>`
+```
 
 If procA.sql is opened in the query editor:
 
