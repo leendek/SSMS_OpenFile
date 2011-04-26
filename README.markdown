@@ -34,4 +34,4 @@ If procA.sql is opened in the query editor:
  * OR: choose Open File2 from Tools > SSMS_OpenFile2 > Open File2
 
 * the addin will look for procB.sql in the folder where procA.sql is in. If not found, it will look for procB.sql in C:\svn.
-* open procB.sql
+* the addin opens procB.sql
