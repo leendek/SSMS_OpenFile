@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSMS_OpenFile", "SSMS_OpenFile\SSMS_OpenFile.csproj", "{D2B2907B-5C74-4FC2-948C-14F962D96020}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SSMS_OpenFile_Setup", "SSMS_OpenFile_Setup\SSMS_OpenFile_Setup.vdproj", "{1A164062-481E-464F-8CF0-433D758DF642}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Ssms", "..\..\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\Ssms.exe", "{892A4FA9-0CEF-4361-9DA3-9F907A92551E}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\Ssms.exe
+		RemoteMachine = FALT351
+		StartingDirectory = C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE
+		Environment = Default
+		LaunchingEngine = fb0d4648-f776-4980-95f8-bb7f36ebc1ee
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D2B2907B-5C74-4FC2-948C-14F962D96020}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|Any CPU.ActiveCfg = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|Any CPU.Build.0 = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|Mixed Platforms.Build.0 = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|x86.ActiveCfg = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Debug|x86.Build.0 = Debug
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|Any CPU.ActiveCfg = Release
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|Any CPU.Build.0 = Release
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|Mixed Platforms.ActiveCfg = Release
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|Mixed Platforms.Build.0 = Release
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|x86.ActiveCfg = Release
+		{1A164062-481E-464F-8CF0-433D758DF642}.Release|x86.Build.0 = Release
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Debug|x86.ActiveCfg = Debug|x86
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Release|Any CPU.ActiveCfg = Debug|x86
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Release|Mixed Platforms.ActiveCfg = Debug|x86
+		{892A4FA9-0CEF-4361-9DA3-9F907A92551E}.Release|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
